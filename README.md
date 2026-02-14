@@ -1,11 +1,6 @@
-# ZMK Module Template
-
-This repository contains a template for a ZMK module, as it would most frequently be used. 
-
-## Usage
-
-Read through the [ZMK Module Creation](https://zmk.dev/docs/development/module-creation) page for details on how to configure this template.
-
-## More Info
-
-For more info on modules, you can read through  through the [Zephyr modules page](https://docs.zephyrproject.org/3.5.0/develop/modules.html) and [ZMK's page on using modules](https://zmk.dev/docs/features/modules). [Zephyr's west manifest page](https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#west-manifests) may also be of use.
+# Logos Keyboard Project
+- Zmk wired split keyboard based on the XIAO RP2040 module
+Each side features:
+- 3x6 but with a reduced pink cluster (no keys on pinky row 2)
+- slight splay on the ring finger, strong splay on the pinky cluster
+- 2 thumb keys extended further away from the palm than standard designs like the corne, so that the index and thumb never cross over.
