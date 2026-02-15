@@ -2,11 +2,10 @@ file_format: "1"
 id: logos
 name: Logos
 type: shield
-url: https://github.com/brichar01/zmk-shield-logos
+url: https://github.com/brichar01/keyboard-split-splay-5x3-2-pinky-cluster
 requires: [xiao_rp2040]
 features:
   - keys
-  - studio
 siblings:
   - logos_left
   - logos_right
