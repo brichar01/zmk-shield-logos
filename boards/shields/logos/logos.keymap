@@ -1,10 +1,12 @@
 #include <behaviours.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     keymap {
         compatible = "zmk,keymap";
-        default_layer = {
+        default_layer {
+            display-name = "Base";
             bindings = <
                             &kp W &kp F &kp P &kp G     &kp J &kp L &kp U &kp Y 
                 &kp Q &kp A &kp R &kp S &kp T &kp D     &kp H &kp N &kp E &kp I &kp O &kp SEMI
@@ -12,7 +14,8 @@
                                         &mo 1 &kp LSHFT &kp SPACE &mo 2
             >;
         };
-        lower_layer = {
+        lower_layer {
+            display-name = "Lower";
             bindings = <
                             &kp W &kp F &kp P &kp G     &kp J &kp L &kp U &kp Y 
                 &kp Q &kp A &kp R &kp S &kp T &kp D     &kp H &kp N &kp E &kp I &kp O &kp SEMI
@@ -20,7 +23,8 @@
                                         &mo 1 &kp LSHFT &kp SPACE &mo 2
             >;
         };
-        raise_layer = {
+        raise_layer {
+            display-name = "Upper";
             bindings = <
                             &kp W &kp F &kp P &kp G     &kp J &kp L &kp U &kp Y 
                 &kp Q &kp A &kp R &kp S &kp T &kp D     &kp H &kp N &kp E &kp I &kp O &kp SEMI
@@ -29,6 +33,7 @@
             >;
         };
         adjust_layer {
+            display-name = "Adjust";
             bindings = <
                             &kp W &kp F &kp P &kp G     &kp J &kp L &kp U &kp Y 
                 &kp Q &kp A &kp R &kp S &kp T &kp D     &kp H &kp N &kp E &kp I &kp O &kp SEMI
@@ -36,7 +41,8 @@
                                         &mo 1 &kp LSHFT &kp SPACE &mo 2
             >;
         };
-        fn_layer = {
+        fn_layer {
+            display-name = "FN";
             bindings = <
                             &kp W &kp F &kp P &kp G     &kp J &kp L &kp U &kp Y 
                 &kp Q &kp A &kp R &kp S &kp T &kp D     &kp H &kp N &kp E &kp I &kp O &kp SEMI
@@ -115,4 +121,4 @@
             bindings = <&sk RPAR>;
         };
     };
-}
+};

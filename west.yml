@@ -1,7 +1,7 @@
 manifest:
   remotes:
-    - name: zmk-shield-logos 
-      url-base: https://github.com/brichar01/zmk-shield-logos
+    - name: brichar01
+      url-base: https://github.com/brichar01
   projects:
     # Together with the above defined remote, this refers to a module located at
     # https://github.com/remote-name/repository-name
